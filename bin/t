@@ -113,7 +113,7 @@ get_fzf_results() {
 	fi
 }
 
-fzf_border_label_default=' t - smart tmux session manager '
+fzf_border_label_default=' My Sessions '
 BORDER_LABEL=${T_FZF_BORDER_LABEL:-$fzf_border_label_default}
 
 HEADER=" ^s sessions ^x zoxide ^f find"
